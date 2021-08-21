@@ -13,8 +13,9 @@ wifi:
   password:
 
 i2c:
-  sda: 5
-  scl: 4
+# alternative i2c pins
+#  sda: 5
+#  scl: 4
 
 sensor:
   - platform: htu21d
